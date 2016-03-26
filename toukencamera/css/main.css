@@ -1,0 +1,49 @@
+* {
+  font-family: Consolas, Meiryo, sans-serif;
+}
+header {
+  background: url(../image/icon-enable.png) center left no-repeat;
+  background-size: 70px;
+  padding-left: 40px;
+}
+header img {
+  vertical-align: bottom;
+}
+section.card-content {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+section.card-content span.card-title {
+  font-size: 20px;
+}
+section.card-content span.card-title img {
+  vertical-align: middle;
+  margin-right: 6px;
+  margin-bottom: 8px;
+}
+section.card-content li {
+  width: 156px;
+  display: inline-block;
+}
+section.card-content li label {
+  color: white;
+}
+.switch label .lever {
+  margin-right: 10px;
+}
+.switch label .lever span {
+  margin-left: 46px;
+}
+section.card-action {
+  text-align: right;
+}
+section.card-action .btn img {
+  vertical-align: middle;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  
+}
+.footer-copyright {
+  background: url(../image/footer-pattern.png) repeat-x center top;
+  padding-top: 10px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>兼さんの寫眞機</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><img src="image/logo-title.png" alt="兼さんの寫眞機"></h1>
+        </header>
+        <div class="row" id="capAll">
+            <div class="col s12">
+                <article class="card red z-depth-2">
+                    <section class="card-content white-text">
+                        <span class="card-title"><img src="image/sakura-white.png">ゲーム画面全体をキャプチャ</span>
+                        <p>ゲーム画面全体のキャプチャを取得します。</p>
+                    </section>
+                    <section class="card-action">
+                        <a href="#" id="captureAll" class="waves-effect waves-light btn red darken-4"><img src="image/camera-white.png">撮影</a>
+                    </section>
+                </article>
+            </div>
+        </div>
+        <div class="row" id="capMaterial">
+            <div class="col s12">
+                <article class="card teal z-depth-2">
+                    <section class="card-content white-text">
+                        <span class="card-title"><img src="image/sakura-white.png">審神者Lv＆資材をキャプチャ</span>
+                        <p>ゲーム画面上部のキャプチャを取得します。</p>
+                    </section>
+                    <section class="card-action">
+                        <a href="#" id="captureAll" class="waves-effect waves-light btn teal darken-4"><img src="image/camera-white.png">撮影</a>
+                    </section>
+                </article>
+            </div>
+        </div>
+        <div class="row" id="capOption">
+            <div class="col s12">
+                <article class="card yellow darken-4 z-depth-2">
+                    <section class="card-content white-text">
+                        <span class="card-title"><img src="image/sakura-white.png">撮影オプション</span>
+                        <p>キャプチャ取得時のオプションを設定します。</p>
+                        <ul>
+                            <li>コピーライトを表示する</li>
+                            <li><div class="switch"><label>On<input type="checkbox"><span class="lever"><span>Off</span></span></label></div></li>
+                        </ul>
+                        <ul>
+                            <li>審神者名をマスクする</li>
+                            <li><div class="switch"><label>On<input type="checkbox"><span class="lever"><span>Off</span></span></label></div></li>
+                        </ul>
+                    </section>
+                </article>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer cyan lighten-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="black-text"><img src="image/logo-title.png" alt="兼さんの寫眞機"></h5>
+                    <p class="pink-text">Version 1.0.0 (<a href="" target="blank">release note</a>)</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <ul>
+                        <li><a class="pink-text" href="https://twitter.com/morry_">Twitter</a></li>
+                        <li><a class="pink-text" href="http://morrymnf.tumblr.com">Tumblr</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+          <div class="footer-copyright white black-text">
+            <div class="container">
+            © 森居製作所 2016
+            </div>
+          </div>
+        </footer>
+</body>
